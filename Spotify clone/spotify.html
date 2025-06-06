@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <div class="logo invert"><img src="img/logo.svg" alt=""></div>
+                </li>
+                <li>
+                    <div class="hamburger">
+                        <img class="invert" width="25px" src="img/ham.svg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="cross"><img class="invert" width="23px" src="img/cross.svg" alt=""></div>
+                </li>
+                <li>
+                    <div class="home"><button id="hb"><img class="invert" width="24px" src="img/home.svg" alt=""></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="bar">
+                        <div class="sicon invert"><img width="24px" src="img/search.svg" alt=""></div>
+                        <label for="yousearch">
+                            <input id="s1" type="search" placeholder="What do you want to play?" name="searcbar"
+                                id="yousearch">
+                        </label>
+                        <div class="browse invert"><img width="24px" src="img/browse.svg" alt=""></div>
+                    </div>
+
+                </li>
+                <li class="ghayb">Premium</li>
+                <li class="ghayb">Support</li>
+                <li class="ghayb">Download</li>
+                <li class="ghayb">Install App</li>
+                <li><button id="sb">Sign up</button></li>
+                <li><button id="lgb">Login</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="boxes">
+            <div class="box1">
+                <div class="library">
+                    <h1>Your Library</h1>
+                    <button id="lb">+</button>
+                </div>
+                <div class="footer">
+                    <div><a target="_blank" href="https://www.spotify.com/pk-en/legal/">Legal</a></div>
+                    <div><a target="_blank" href="https://www.spotify.com/pk-en/safetyandprivacy/">Safety & Privacy
+                            Center</a></div>
+                    <div><a target="_blank" href="https://www.spotify.com/pk-en/legal/privacy-policy/">Privacy
+                            Policy</a></div>
+                    <div><a target="_blank" href="https://www.spotify.com/pk-en/legal/cookies-policy/">Cookies</a></div>
+                    <div><a target="_blank" href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3">About Ads</a>
+                    </div>
+                    <div><a target="_blank" href="https://www.spotify.com/pk-en/accessibility/">Accessibility</a></div>
+                </div>
+                <div class="songlist">
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="spotifyplaylist">
+                    <h1>Trending Songs</h1>
+                    <div class="cardcontainer">
+                       
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="allign">
+                        <div class="songinfoo"></div>
+                        <div class="songtime"></div>
+                    </div>
+
+                    <div class="songbuttons">
+                        <button><img id="previous" class="invert" width="25px" src="img/previous.svg" alt=""></button>
+                        <button><img id="play" class="invert" width="35px" src="img/plays.svg" alt=""></button>
+                        <button><img id="next" class="invert" width="25px" src="img/next.svg" alt=""></button>
+                    </div>
+
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="volume">
+                        <img class="invert muted" src="img/volume.svg" alt="">
+                        <div class="range"><input type="range" name="volume"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
