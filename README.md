@@ -3,6 +3,8 @@
 
 The player includes essential features such as Play/Pause functionality ▶️, Next and Previous track controls ⏩, and a dynamic progress bar 📊 that updates in real-time and allows users to seek through the song. Additionally, users can control the volume 🔊 using a custom slider, enhancing the overall music experience.
 
+<img  src="https://www.keentodesign.com.au/cdn-cgi/imagedelivery/eOylWWvDYZyJkbAUtQZpuQ/www.keentodesign.com.au/html.png/w=768" alt="">
+
 The design is fully responsive 📱, ensuring a smooth and consistent user experience across desktops, tablets, and smartphones. The project focuses on DOM manipulation, event listeners, and JavaScript’s audio API to manage song playback and UI updates effectively.
 
 This clone is a great project for beginners and intermediate developers to explore front-end development, practice building a real-world application UI, and gain hands-on experience with media control, interactive elements, and responsive web design. 🚀
