@@ -11,4 +11,4 @@ This clone is a great project for beginners and intermediate developers to explo
 
 Whether you're adding it to your portfolio or using it as a foundation for a more advanced music app, the Spotify Clone is a fun and rewarding project that brings together creativity and coding! 🎶
 
-
+<img  src="https://www.hollywoodreporter.com/wp-content/uploads/2024/06/GettyImages-2156022146.jpg?crop=0px%2C645px%2C6000px%2C3357px&resize=1440%2C810" alt="">
